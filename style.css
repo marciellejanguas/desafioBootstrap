@@ -1,0 +1,15 @@
+:root { 
+--brand: var(--bs-primary); 
+}
+html, body { 
+    height: 100%; 
+}
+.list-group-item.active { 
+    background-color: var(--bs-primary); border-color: var(--bs-primary); 
+}
+.card-title { 
+    font-variant-numeric: tabular-nums; 
+}
+.table td, .table th { 
+    vertical-align: middle; 
+}
