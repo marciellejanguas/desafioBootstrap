@@ -15,3 +15,11 @@ a,.btn-link{color:var(--brand)}
 .card-title{font-variant-numeric:tabular-nums}
 .progress-thin{height:8px}
 .progress-bar{background-color:var(--brand)}
+.table-striped>tbody>tr:nth-of-type(odd)>*{background-color:color-mix(in oklab,var(--brand-100),transparent 75%)}
+.table-hover tbody tr:hover>*{background-color:color-mix(in oklab,var(--brand-100),transparent 55%)}
+.btn-danger-soft{--bs-btn-bg:color-mix(in oklab,#dc3545,white 85%);--bs-btn-border-color:#dc3545;color:#b02a37}
+.btn-danger-soft:hover{background:color-mix(in oklab,#dc3545,white 70%)}
+.glass{backdrop-filter:saturate(1.4) blur(8px)}
+.chart-wrap{height:280px}
+:focus-visible{outline:3px solid transparent;box-shadow:0 0 0 .25rem var(--ring);border-radius:.5rem}
+@media (min-width:992px){.sidebar{width:240px}}
