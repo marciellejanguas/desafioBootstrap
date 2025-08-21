@@ -6,3 +6,12 @@
 }
 html,body{height:100%}
 body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.navbar .brand-mark{width:32px;height:32px;background:var(--brand-100);color:var(--brand)}
+.list-group-item.active{background-color:var(--brand);border-color:var(--brand)}
+a,.btn-link{color:var(--brand)}
+.hero{background:linear-gradient(180deg,var(--brand-100),transparent);padding:1.25rem 0}
+.card-elev{border:1px solid var(--bs-border-color);transition:transform .15s,box-shadow .15s}
+.card-elev:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(0,0,0,.06)}
+.card-title{font-variant-numeric:tabular-nums}
+.progress-thin{height:8px}
+.progress-bar{background-color:var(--brand)}
