@@ -23,3 +23,9 @@ a,.btn-link{color:var(--brand)}
 .chart-wrap{height:280px}
 :focus-visible{outline:3px solid transparent;box-shadow:0 0 0 .25rem var(--ring);border-radius:.5rem}
 @media (min-width:992px){.sidebar{width:240px}}
+
+.sidebar{ --bs-offcanvas-width: 320px; }
+
+@media (min-width: 992px){
+  .sidebar{ width: 320px; }
+}
